@@ -1,4 +1,4 @@
-
+@charset "UTF-8";   
 
 html,body{
     margin: 0px;padding: 0px;height: 100%;
@@ -8,57 +8,66 @@ html,body{
 header{
     width: 100%;
     height: 20%;
-    border-bottom: 10px dotted pink;
     display: flex;
     align-items: center;
     justify-content: center;
     
-
 }
+
 .book{
     width: 30%;
     height: 100%;
-    
     float: left;
 }
 .book img{
-    position: relative;
-    width: 100%;
-    height: 100%;
-}
-.header_s{
-    width: 70%;
-    height: 100%;
     
-    float: left;
-    display: flex;
-    overflow: scroll;
+    width: 90%;
+    height: 90%;
 }
-.header_sp{
+.header{
     display: flex;
     align-items: center;
-
+    justify-content: center;
+    max-height: 100%;
+    max-width: 90%;
 }
+.header_s{
+    
+    width: 50%;
+    height: 80%;
+    float: left;
+    display: flex;
+    
+}
+
 .box1{
-   overflow: scroll;
+    width: 100%;
+}
+.box1 h1{
+    font-size: 1em;
 }
 .info {
-    
-    
-    display: -webkit-box;
-    -webkit-line-clamp: 3; /* 라인수 */
-    -webkit-box-orient: vertical;
-    word-wrap:break-word; 
-    line-height: 1.2em;
-    height: 3.6em;
+    margin: 0%;
+    text-overflow: ellipsis;
     overflow: scroll;
+    height: 35px;
+   
 
+}
+.info p{
+    
+    width: 100%;
+    height: 100%;
+    font-size: 1em;
+    display: inline;
 }
 
   
 .main{
     width: 70%;
     height: 70%;
+    margin:0 auto;
+    border-top: 10px solid #BDBDBD;
 }
 article{
     height: 100%;
@@ -68,13 +77,14 @@ article{
     flex-direction: column; 
     padding-bottom: 0px; 
     padding-top: 0px
+    border
 }
 .row{
     margin: 0 auto;
     display: flex;
     width: 99%;
     height: 33%;
-    background-color: #CEF6CE;
+   
     display: flex;
     align-items: center;
     justify-content: center;
@@ -90,6 +100,7 @@ article{
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 50px;
     
     
 }
@@ -123,15 +134,23 @@ article{
 footer{
     width: 100%;
     height: 10%;
+    
 }
 .main p{
     font-family: 휴먼편지체;
     color:  #FBFBEF;
+    text-align: center;
+    
    
+}
+.copyright{
+    width: 90%;
+    height: 90%;
+    margin: 10px auto;
 }
 b{
     border-radius: 100px;
     border: 3px solid #E3CEF6;
     background-color: #ECE0F8;
-    float: left;
+    float: right;
 }
