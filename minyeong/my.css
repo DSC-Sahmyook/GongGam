@@ -1,0 +1,137 @@
+
+
+html,body{
+    margin: 0px;padding: 0px;height: 100%;
+  
+}
+
+header{
+    width: 100%;
+    height: 20%;
+    border-bottom: 10px dotted pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.book{
+    width: 30%;
+    height: 100%;
+    
+    float: left;
+}
+.book img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.header_s{
+    width: 70%;
+    height: 100%;
+    
+    float: left;
+    display: flex;
+    overflow: scroll;
+}
+.header_sp{
+    display: flex;
+    align-items: center;
+
+}
+.box1{
+   overflow: scroll;
+}
+.info {
+    
+    
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* 라인수 */
+    -webkit-box-orient: vertical;
+    word-wrap:break-word; 
+    line-height: 1.2em;
+    height: 3.6em;
+    overflow: scroll;
+
+}
+
+  
+.main{
+    width: 70%;
+    height: 70%;
+}
+article{
+    height: 100%;
+}
+.whole{
+    height: 100%;
+    flex-direction: column; 
+    padding-bottom: 0px; 
+    padding-top: 0px
+}
+.row{
+    margin: 0 auto;
+    display: flex;
+    width: 99%;
+    height: 33%;
+    background-color: #CEF6CE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cont,.cont2,.cont3{
+    display: inline-block;
+    width: 33%;
+    height: 90%;
+    float: left;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right:3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.cont:nth-child(1){
+    background-image: url(1.jpeg);
+}
+.cont:nth-child(2){
+    background-image: url(2.jpeg);
+}
+.cont:nth-child(3){
+    background-image: url(3.jpeg);
+}
+.cont2:nth-child(1){
+    background-image: url(4.jpeg);
+}
+.cont2:nth-child(2){
+    background-image: url(5.jpeg);
+}
+.cont2:nth-child(3){
+    background-image: url(6.jpeg);
+}
+.cont3:nth-child(1){
+    background-image: url(7.jpeg);
+}
+.cont3:nth-child(2){
+    background-image: url(8.jpeg);
+}
+.cont3:nth-child(3){
+    background-image: url(9.jpeg);
+}
+footer{
+    width: 100%;
+    height: 10%;
+}
+.main p{
+    font-family: 휴먼편지체;
+    color:  #FBFBEF;
+   
+}
+b{
+    border-radius: 100px;
+    border: 3px solid #E3CEF6;
+    background-color: #ECE0F8;
+    float: left;
+}
