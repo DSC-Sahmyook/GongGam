@@ -24,12 +24,12 @@ ul{
     color: #fff;
 }
 b{
-    font-size: 7vw;
+    font-size: 6vw;
     margin: 0 auto;
 }
 #listyle{
     width: 20%;
-    font-size: small;
+    font-size: 1.5vw;
     margin-left: 0%;
     text-align: center;
 }
@@ -54,15 +54,19 @@ b{
 }
 
 #cardimage{
-  float: left;
-  width : 100%;
-  opacity: 0.8;
+    float: left;
+    /* width: 99%; */
+    opacity: 0.8;
+    margin: 2% auto;
+    padding: 0% 2%;
 }
 #card_body{
-  margin: 0 auto;
-  float: left;
-  width: 100%;
-  color: black;
+    margin: 0 auto; 
+    color: black;
+    float: left;
+    width: 40%;
+    height: 100%;
+    display: block;
 }
 h6{
   font-size: 100%;
@@ -71,13 +75,15 @@ section{
   height: fit-content;
 }
 .content{
-    width: 100%;
-    float: left;
-    margin: 0 auto;
+    display: flex;
+    align-items: center;
+   
 }
 p{
-  font-size: 3.5vw;
-  text-align: center;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 2.5vw;
+    text-align: center;
+    margin: 0 auto;
 }
 #card{
     width: 95%; 
@@ -101,8 +107,9 @@ footer{
     text-align:center;
 }
 .imageclass{
-    width:100%;
-    margin: 0 auto;
+    width: 50%;
+    float: left;
+    margin: 2%;
 }
 
 @media screen and (max-width: 767px){
@@ -111,6 +118,10 @@ footer{
       height:100%;
 
   }  
+  .imageclass{
+    width:100%;
+    margin: 0 auto;
+}
   body{
       width:auto;
       min-height: 100%;
@@ -136,17 +147,20 @@ footer{
     margin-left: 5%;
   }
   #card_body{
+      width: 100%;
       padding: 10;
       height: 60%;
       margin: 0 auto;
       text-align: center;
   }
   .content{
-      min-height: 100%;
-      margin : 0 auto;
+        display: block;
+        align-items: baseline;
+        min-height: 100%;
+         margin : 0 auto;
   }
   p{
-      font-size:3.5vw;
+      font-size:4vw;
   }
   footer{
       position:fixed;
