@@ -2,6 +2,7 @@
 
 html,body{
     margin: 0px;padding: 0px;height: 100%;
+    background-color: rgb(248, 246, 242);
 }
 section{
     width: 90%;
@@ -14,7 +15,9 @@ article{
     height: 50%;
     
 }
-
+p{
+    font-family: 'Do Hyeon', sans-serif;
+}
 .co1{
     width: 100%;
     height: 100%;
@@ -33,7 +36,7 @@ article{
     background-size: 100% 100%;
 }
 .box1 p{
-    color:#F2F2F2;
+    color: rgb(104, 14, 124);
     font-size: 1.5em;
     
 }
