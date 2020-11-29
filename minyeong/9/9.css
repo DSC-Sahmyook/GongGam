@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+html,body{
+    margin: 0px;padding: 0px;height: 100%;
+    background-color: rgb(248, 246, 242);
+}
+section{
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+
+}
+article{
+    width: 100%;
+    height: 50%;
+    
+}
+p{
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+.co1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box1{
+    width:100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/9.jpeg);
+    background-size: 100% 100%;
+}
+.box1 p{
+    color: whitesmoke;
+    font-size: 1.5em;
+    
+}
+
+.box2{
+    width:100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+.box2 p{
+    
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    white-space: pre-wrap; 
+
+}
+footer h1{
+    color: #E6E6E6;
+    text-align: center;
+    font-size: smaller;
+}

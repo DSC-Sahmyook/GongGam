@@ -1,0 +1,40 @@
+@charset "UTF-8"; 
+
+html,body{
+    margin: 0%;
+    padding:0%;
+    height: 100%;
+    margin: 0px auto;
+    background-color: rgb(248, 246, 242);
+    
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box1{
+    width: 70%;
+    height: 70%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px auto;
+    font-family: 'Do Hyeon', sans-serif;
+}
+summary{
+    font-size: 3em;
+    color: orange;
+    font-family: 'Do Hyeon', sans-serif;
+}
+li{
+    color: blueviolet;
+    font-family: 'Do Hyeon', sans-serif;
+}
+p{
+    color: orange;
+    font-family: 'Do Hyeon', sans-serif;
+}
+

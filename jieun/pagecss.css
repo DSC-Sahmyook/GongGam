@@ -1,0 +1,169 @@
+
+body{
+    background-image: url("rainbow.jpg");
+    background-size:100%;
+    background-repeat: no-repeat;
+    display: block;
+}
+header{
+    text-align: center;
+    margin-top:10%;
+    margin-bottom: 10%;
+    color: white;
+}
+#button{
+    font-size: medium;
+    top: 20px;
+    float: right;
+    margin-bottom: 2%;
+    margin-right: 2%;
+}
+ul{
+    width:100%;
+    float: left;
+    color: #fff;
+}
+b{
+    font-size: 6vw;
+    margin: 0 auto;
+}
+#listyle{
+    width: 20%;
+    font-size: 1.5vw;
+    margin-left: 0%;
+    text-align: center;
+}
+.nav-tabs {
+    border-bottom: 1px solid #0000;
+}
+.nav-link{
+    color:#fff;
+}
+.nav-tabs .nav-link.active {
+    color: #fff;
+    background-color: #656262;
+    border-color: #0000;
+}
+.contanier{
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    margin-top:2%;
+    margin-bottom: 2%;
+     position: relative;
+}
+
+#cardimage{
+    float: left;
+    /* width: 99%; */
+    opacity: 0.8;
+    margin: 2% auto;
+    padding: 0% 2%;
+}
+#card_body{
+    margin: 0 auto; 
+    color: black;
+    float: left;
+    width: 40%;
+    height: 100%;
+    display: block;
+}
+h6{
+  font-size: 100%;
+}
+section{
+  height: fit-content;
+}
+.content{
+    display: flex;
+    align-items: center;
+   
+}
+p{
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 2.5vw;
+    text-align: center;
+    margin: 0 auto;
+}
+#card{
+    width: 95%; 
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+}
+.grid{
+  margin-top: 2%;
+  width : 100%;
+  float : left;
+}
+footer{
+    bottom:0%;
+    float: left;
+    width: 100%;
+    text-align:center;
+}
+#footer_letter{
+    width: 100%;
+    text-align:center;
+}
+.imageclass{
+    width: 50%;
+    float: left;
+    margin: 2%;
+}
+
+@media screen and (max-width: 767px){
+  
+  html{
+      height:100%;
+
+  }  
+  .imageclass{
+    width:100%;
+    margin: 0 auto;
+}
+  body{
+      width:auto;
+      min-height: 100%;
+  }
+  section{
+      margin-bottom: auto;
+  }
+  .contanier{
+      margin: 2% auto;
+      width:100%;
+      float:left;
+      height: 85%;
+      position: relative;
+  }
+  #card{
+      height: 100%;
+      overflow: auto;
+  }
+  #cardimage{
+    display: inline-block;
+    width: 90%;
+    margin-top: 2%;
+    margin-left: 5%;
+  }
+  #card_body{
+      width: 100%;
+      padding: 10;
+      height: 60%;
+      margin: 0 auto;
+      text-align: center;
+  }
+  .content{
+        display: block;
+        align-items: baseline;
+        min-height: 100%;
+         margin : 0 auto;
+  }
+  p{
+      font-size:4vw;
+  }
+  footer{
+      position:fixed;
+      bottom : 0%;
+  }
+}
