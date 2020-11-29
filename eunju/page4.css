@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'MaruBuri-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/MaruBuri-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'RIDIBatang';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    /* overflow-x: hidden; */
+    overflow-x: hidden;
+}
+#title{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-size: 20pt; 
+    position: relative;
+    top: 40px;
+    left: 240px;
+    font-family: 'MaruBuri-Regular';
+    font-weight: bold;
+}
+h3{/*공감*/
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 10px ;
+    left: 1100px;
+    font-family: 'MaruBuri-Regular';
+}
+.nav{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 700px;
+    top: -10px;
+    font-family: 'MaruBuri-Regular';
+}
+.topline{
+    background-color: gray;
+    height: 0.5px;
+    margin-top: 5px;
+}
+.link{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+.link:hover{
+    color:gray;
+    text-decoration: none;
+}
+.wrap{
+    position: relative;
+}
+.pic{
+    margin: 0; 
+    padding: 0; 
+    width:1500px ; 
+    height:auto ; 
+}
+.pwrap{
+    text-align: center;
+}
+.text{
+    font-family: 'MaruBuri-Regular';
+    font-size: 18pt;
+    color: honeydew;
+}
+.textwrap{
+    position: absolute;
+    top: 170px;
+    left: 500px;
+}
+.pointtext{
+    font-size: 24pt;
+    font-style: italic;
+
+}
+.footer{
+    margin-top: 50px;
+    font-size: 13px;
+    font-family: 'MaruBuri-Regular';
+    position: relative;
+    bottom: 40px;
+    text-decoration: underline;
+    text-align: center
+    }
+.footline{
+    background-color: gray;
+    height: 0.5px;
+    position: relative;
+}
