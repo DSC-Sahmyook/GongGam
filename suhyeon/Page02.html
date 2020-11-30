@@ -3,24 +3,68 @@
     <META NAME="GENERATOR" Content="Microsoft Visual Studio">
     <TITLE></TITLE>
         <style type="text/css">
-            #RoseLeft {
+            #RoseRight {
+                z-index: 1;
+                float: right;
+    
+            }#RoseLeft {
                 z-index:2;
                 float:left;
-            }        
-            #RoseRight {
-                z-index:1;
-                float:right;
             }
+    
+    
+            #IconNext {
+                z-index: 3;
+                position: fixed;
+                right: 0;
+                bottom: 5%;
+            }
+    
+            #IconBack {
+                z-index: 4;
+                position: fixed;
+                left: 0;
+                bottom: 5%;
+            }
+            #text01 {
+                z-index: 5;
+                position: absolute;
+                top: 20%;
+                left: 30%;
+                width:40%;
+            }
+    
+    
             body
             {
+    
                 background-color:white;
+                background-repeat:no-repeat;
+                
             }
         </style>
     </HEAD>
     <BODY>
-    <p align="right"><img src="https://i.imgur.com/bc2UtGo.png" align="bottom" height="100%" id="RoseRight" />
-    <p align="left"><img src="https://i.imgur.com/nl2332o.png" align="bottom" height="100%" id="Roseleft"/>
-        
+        <p align="center"><img src="https://i.imgur.com/LmdDHy4.png" id="text01" /></p>
+    
+        <p align="left">
+            <img src="https://i.imgur.com/nl2332o.png" align="bottom" height="100%" id="Roseleft" />
+        </p>
+        <p align="right">
+            <img src="https://i.imgur.com/bc2UtGo.png" align="bottom" height="100%" id="RoseRight" />
+        </p>
+    
+        <a href="Page01.htm">
+            <p><img id="IconBack" src="https://i.imgur.com/Ncz7Sie.png" ; /></p>
+        </a>
+    
+        <a href="Page03.htm">
+            <p><img id="IconNext" src="https://i.imgur.com/b84O3zg.png" ; /></p>
+        </a>
+    
+    
+    
+    
+    
     </BODY>
     </HTML>
-    
