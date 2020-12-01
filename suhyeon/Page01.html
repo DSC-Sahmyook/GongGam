@@ -5,36 +5,45 @@
     <TITLE></TITLE>
     <style type="text/css">
 
-            
-        #Page01BG
-        {
+
+        #Page01BG {
             z-index: 2;
             margin-bottom: 0;
-            z-index:2;
-            float:unset;
-            
-            }
-        #IconNext {
-            float: right;
-            z-index: 3
+            bottom:0%;
         }
 
-        #IconBack {
-            float: left;
-            z-index: 4
+
+
+        #IconNext {
+            z-index:3;
+            position:fixed;
+            right:0;
+            bottom:0%;
         }
+
+        #text01 {
+            z-index: 5;
+            position: absolute;
+            top: 50%;
+            right: 10%;
+            width: 50%;
+        }
+
         body {
+            z-index:0;
             background-image: url(https://i.imgur.com/lb36JOs.jpg);
-            z-index: 1;
-            height: 100%;
+            background-size:cover;
             background-repeat: no-repeat;
         }
     </style>
 </HEAD>
 <BODY>
-    <a href="Page02.htm"><p><img id="IconNext" src="https://i.imgur.com/zS75uCK.png" ; /></p></a>
-    <p><img id="IconBack" src="https://i.imgur.com/L9IDC8a.png" ; /></p>
-    <p align="center"><img id="Page01BG" src="https://i.imgur.com/rmsfZD5.png" align="bottom" width="100%" />
+    <p align="center"><img src="https://i.imgur.com/GZQ0v66.png" id="text01" /></p>
+    <a href="Page02.htm"><p><img id="IconNext" src="https://i.imgur.com/b84O3zg.png" ; /></p></a>
+    <p align="right">
+        <img id="Page01BG" src="https://i.imgur.com/k6v0tJd.png" width="100%" />
+    </p>
+
 
 </BODY>
 </HTML>
