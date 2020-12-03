@@ -7,5 +7,7 @@
 페이지 구성 및 디자인 구상중.  
 2020/11/30  
 Page1 완료. UI 구상중.  
+2020/12/3  
+Page2 완료. UI 추가  
 
 제작자	-	Parkjoungwan(https://github.com/Parkjoungwan)
