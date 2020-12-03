@@ -42,7 +42,7 @@ html {
 }
 .leftbtn {
   position: relative;
-  left: 3%;
+  left: 1%;
   top: 42%;
   max-height: 10%;
   width:auto;
@@ -88,8 +88,8 @@ body {
   padding: 0;
   width: 100%;
   height: 100%;
-  color: #ffffff;
-  background-color: #11172f;
+  color: #1C272E;
+  background-color: #B38902;
 }
 
 main {
@@ -156,4 +156,9 @@ main {
   to {
       opacity: 1;
   }
+}
+
+canvas {
+  width: 100%;
+  height: 100%;
 }
