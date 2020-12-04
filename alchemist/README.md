@@ -9,5 +9,6 @@
 Page1 완료. UI 구상중.  
 2020/12/3  
 Page2 완료. UI 추가  
-
+2020/12/4  
+Page3 완료. UI 추가 및 Home 추가  
 제작자	-	Parkjoungwan(https://github.com/Parkjoungwan)
