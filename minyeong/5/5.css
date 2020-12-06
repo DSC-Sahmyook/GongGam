@@ -28,13 +28,14 @@ p{
 }
 
 .box1{
-    width:100%;
+    width:70%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     background-image: url(../img/5.jpg);
     background-size: 100% 100%;
+    margin: auto;
 }
 .box1 p{
     color:whitesmoke;
@@ -43,11 +44,13 @@ p{
 }
 
 .box2{
-    width:100%;
+    width:70%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    
+    
    
 
 }
@@ -57,6 +60,7 @@ p{
     height: 100%;
     overflow: scroll;
     white-space: pre-wrap; 
+    
 }
 footer h1{
     color: #E6E6E6;

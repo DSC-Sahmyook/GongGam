@@ -28,13 +28,14 @@ p{
 }
 
 .box1{
-    width:100%;
+    width:70%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     background-image: url(../img/1.jpeg);
     background-size: 100% 100%;
+    margin: auto;
 }
 .box1 p{
     font-size: 1.5em;
@@ -42,11 +43,12 @@ p{
 }
 
 .box2{
-    width:100%;
+    width:70%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+   
    
 
 }

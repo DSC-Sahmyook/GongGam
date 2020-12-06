@@ -27,13 +27,14 @@ p{
 }
 
 .box1{
-    width:100%;
+    width:70%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     background-image: url(../img/6.jpeg);
     background-size: 100% 100%;
+    margin: auto;
 }
 .box1 p{
     color: rgb(20, 72, 214);
@@ -42,7 +43,7 @@ p{
 }
 
 .box2{
-    width:100%;
+    width:70%;
     height: 100%;
     display: flex;
     align-items: center;

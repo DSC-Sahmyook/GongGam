@@ -28,13 +28,14 @@ p{
 }
 
 .box1{
-    width:100%;
+    width:70%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     background-image: url(../img/3.jpg);
     background-size: 100% 100%;
+    margin: auto;
 }
 .box1 p{
     color: #6E6E6E;
@@ -43,7 +44,7 @@ p{
 }
 
 .box2{
-    width:100%;
+    width:70%;
     height: 100%;
     display: flex;
     align-items: center;
