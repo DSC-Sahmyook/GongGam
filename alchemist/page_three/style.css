@@ -39,6 +39,7 @@ html {
 #tunnelimg:after {display:inline-block; height:100%; content:""; vertical-align:middle;}
 #tunnelimg img {
   max-height: 100%;
+  max-width: 40%;
   vertical-align:middle;
 }
 

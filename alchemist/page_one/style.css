@@ -28,18 +28,17 @@ html {
 #tunnelimg {
   position:absolute;
   z-index:1;
-  width:100%;
+  left: 10%;
+  width:90%;
   height:100%;
+  line-height:100%;
 }
 
-.mainimg {
-  position: relative;
-  left: 10%;
-  top:10%;
-  max-height:90%;
-  width:auto;
-  margin: 0;
+#tunnelimg:after {display:inline-block; height:100%; content:""; vertical-align:middle;}
+#tunnelimg img {
+  vertical-align:middle;
 }
+
 .leftbtn {
   position: relative;
   left: 3%;

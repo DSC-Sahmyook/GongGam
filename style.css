@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+#moongu {
+  box-sizing: border-box;
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 200%;
+  text-align: center;
+  line-height: 1.6;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
