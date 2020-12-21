@@ -25,7 +25,7 @@ function resize ()
     document.body.style.color = "rgba("+txrgb.r+"," +txrgb.g+"," +txrgb.b+", 1)";
 }
 
-window.addEventListener('resize', function(){
+window.addEventListener('load', function(){
     resize();
 });
 
