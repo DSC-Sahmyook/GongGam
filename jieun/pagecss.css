@@ -1,7 +1,8 @@
 
 body{
-    background-image: url("rainbow.jpg");
-    background-size:100%;
+    background-image: url("unnamed.jpg");
+    background-size: 100% 100%;
+    width : 100%;
     background-repeat: no-repeat;
     display: block;
 }
@@ -9,7 +10,7 @@ header{
     text-align: center;
     margin-top:10%;
     margin-bottom: 10%;
-    color: white;
+    color: #1f331f;
 }
 #button{
     font-size: medium;
@@ -123,9 +124,12 @@ footer{
     margin: 0 auto;
 }
   body{
+
       width:auto;
       min-height: 100%;
+      background-image: url("rainbow.jpg");
   }
+
   section{
       margin-bottom: auto;
   }
