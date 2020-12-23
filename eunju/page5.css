@@ -15,30 +15,36 @@ body{
     overflow-x: hidden;
 }
 #title{
-    margin: 0;
+    margin-top: 20px;
     padding: 0;
     text-align: left;
-    font-size: 20pt; 
+    font-size: 17pt; 
     position: relative;
     top: 40px;
     left: 240px;
     font-family: 'MaruBuri-Regular';
     font-weight: bold;
 }
-h3{/*공감*/
+h3{
     margin: 0;
     padding: 0;
     position: relative;
-    top: 10px ;
+    top: -20px ;
     left: 1100px;
     font-family: 'MaruBuri-Regular';
+}
+.gonggam
+{
+    margin: 0;
+    padding: 0;
+    display: block;
 }
 .nav{
     margin: 0;
     padding: 0;
     position: relative;
     left: 700px;
-    top: -10px;
+    top: 10px;
     font-family: 'MaruBuri-Regular';
 }
 .topline{
@@ -50,6 +56,8 @@ h3{/*공감*/
     color: black;
     text-decoration: none;
     font-size: 20px;
+    display: inline-block;
+    margin: 0;
 }
 .link:hover{
     color:gray;
